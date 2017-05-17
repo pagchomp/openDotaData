@@ -2,8 +2,15 @@
 title: "Untitled"
 output: pdf_document
 ---
-
+rjson (2007), RJSONIO (2010), jsonlite (2013)
 ```{r}
 library(jsonlite)
-folder <- "E:\\Projects\\openDotaData\\small\\"
-wf <- read.csv(paste0(folder, "matches_small.csv"), stringsAsFactors = F)
+folder <- "E:\\Projects\\openDotaData\\"
+connection <- gzfile(paste0(folder, "player_matches.gz"))
+con <- gzcon(connection)
+dat <- length(readLines(con, n = 1000000))
+```
+
+```{r}
+# wf <- read.csv(paste0(folder, "small\\matches_small.csv"), stringsAsFactors = F)
+```
