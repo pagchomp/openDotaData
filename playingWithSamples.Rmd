@@ -1,0 +1,9 @@
+---
+title: "Untitled"
+output: pdf_document
+---
+
+```{r}
+library(jsonlite)
+folder <- "E:\\Projects\\openDotaData\\small\\"
+wf <- read.csv(paste0(folder, "matches_small.csv"), stringsAsFactors = F)
