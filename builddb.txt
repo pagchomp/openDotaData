@@ -1,0 +1,191 @@
+DROP TABLE IF EXISTS airports;
+CREATE TABLE airports(
+id			SERIAL		PRIMARY KEY,
+faa			VARCHAR(255),
+aname		VARCHAR(255),
+lat			DECIMAL,
+lon			DECIMAL,
+alt			INTEGER,
+tz			INTEGER,
+dst			VARCHAR(255)
+);
+
+
+COPY airports(faa, aname, lat, lon, alt, tz, dst) 
+FROM 'C:\\Users\\Public\\airports.csv' 
+WITH (format csv, DELIMITER ',');
+
+
+
+DROP TABLE IF EXISTS flights;
+CREATE TABLE flights(
+id			SERIAL		PRIMARY KEY,
+year		INTEGER,
+month		INTEGER,
+day			INTEGER,
+dep_time	INTEGER,
+dep_delay	INTEGER,
+arr_time	INTEGER,
+arr_delay	INTEGER,
+carrier		VARCHAR(255),
+tailnum		VARCHAR(255),
+flight		INTEGER,
+origin		VARCHAR(255),
+dest		VARCHAR(255),
+air_time	INTEGER,
+distance	INTEGER,
+hour		INTEGER,
+minute		INTEGER
+);
+
+
+COPY flights(year, month, day, dep_time, dep_delay, arr_time, arr_delay, carrier, tailnum, flight, origin, dest, air_time, distance, hour, minute) 
+FROM 'C:\\Users\\Public\\flights.csv' 
+WITH (format csv, DELIMITER ',', null 'NA');
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+473260719
+430827427
+t
+1390019262
+3234
+772
+260
+51
+51
+114
+397
+0
+10
+0
+0
+0
+1
+
+
+
+
+
+
+
+
+
+"{""0"":{""account_id"":96234502
+""hero_id"":82
+""player_slot"":0}
+""1"":{""account_id"":110986079
+""hero_id"":53
+""player_slot"":1}
+""2"":{""account_id"":4294967295
+""hero_id"":23
+""player_slot"":2}
+""3"":{""account_id"":111757702
+""hero_id"":4
+""player_slot"":3}
+""4"":{""account_id"":102908600
+""hero_id"":84
+""player_slot"":4}
+""128"":{""account_id"":79884140
+""hero_id"":22
+""player_slot"":128}
+""129"":{""account_id"":4294967295
+""hero_id"":99
+""player_slot"":129}
+""130"":{""account_id"":4294967295
+""hero_id"":88
+""player_slot"":130}
+""131"":{""account_id"":4294967295
+""hero_id"":6
+""player_slot"":131}
+""132"":{""account_id"":4294967295
+""hero_id"":98
+""player_slot"":132}}"
+473260722
+430818345
+f
+1390019274
+2360
+0
+1982
+0
+63
+152
+102
+0
+10
+0
+0
+0
+1
+0
+
+
+
+
+
+
+
+
+"{""0"":{""account_id"":4294967295
+""hero_id"":88
+""player_slot"":0}
+""1"":{""account_id"":4294967295
+""hero_id"":44
+""player_slot"":1}
+""2"":{""account_id"":4294967295
+""hero_id"":11
+""player_slot"":2}
+""3"":{""account_id"":4294967295
+""hero_id"":7
+""player_slot"":3}
+""4"":{""account_id"":4294967295
+""hero_id"":39
+""player_slot"":4}
+""128"":{""account_id"":4294967295
+""hero_id"":73
+""player_slot"":128}
+""129"":{""account_id"":144831983
+""hero_id"":14
+""player_slot"":129}
+""130"":{""account_id"":117103981
+""hero_id"":40
+""player_slot"":130}
+""131"":{""account_id"":4294967295
+""hero_id"":101
+""player_slot"":131}
+""132"":{""account_id"":4294967295
+""hero_id"":19
+""player_slot"":132}}"
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+DROP TABLE IF EXISTS matches;
+CREATE TABLE matches(
+id			SERIAL		PRIMARY KEY\n
+match_id,
+match_seq_num,
+radiant_win,
+start_time,
+duration,
+tower_status_radiant,
+tower_status_dire,
+barracks_status_radiant,
+barracks_status_dire,
+cluster,
+first_blood_time,
+lobby_type,
+human_players,
+leagueid,
+positive_votes,
+negative_votes,
+game_mode,
+engine,
+picks_bans,
+parse_status,
+chat,
+objectives,
+radiant_gold_adv,
+radiant_xp_adv,
+teamfights,
+version,
+pgroup
+
+);
