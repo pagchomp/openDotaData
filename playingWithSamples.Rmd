@@ -8,7 +8,7 @@ library(jsonlite)
 folder <- "E:\\Projects\\openDotaData\\"
 connection <- gzfile(paste0(folder, "player_matches.gz"))
 con <- gzcon(connection)
-dat <- length(readLines(con, n = 1000000))
+dat <- length(readLines(con))
 ```
 
 ```{r}
