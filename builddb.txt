@@ -189,3 +189,83 @@ version,
 pgroup
 
 );
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+match_id,473260719
+match_seq_num,430827427
+radiant_win,t
+start_time,1390019262
+duration,3234
+tower_status_radiant,772
+barracks_status_dire,260
+cluster,51
+first_blood_time,51
+lobby_type,114
+human_players,397
+leagueid,0
+positive_votes,10
+negative_votes,0
+game_mode,0
+engine,0
+1
+
+
+
+
+
+
+
+
+
+"{""0"":{""account_id"":96234502,""hero_id"":82,""player_slot"":0},""1"":{""account_id"":110986079,""hero_id"":53,""player_slot"":1},""2"":{""account_id"":4294967295,""hero_id"":23,""player_slot"":2},""3"":{""account_id"":111757702,""hero_id"":4,""player_slot"":3},""4"":{""account_id"":102908600,""hero_id"":84,""player_slot"":4},""128"":{""account_id"":79884140,""hero_id"":22,""player_slot"":128},""129"":{""account_id"":4294967295,""hero_id"":99,""player_slot"":129},""130"":{""account_id"":4294967295,""hero_id"":88,""player_slot"":130},""131"":{""account_id"":4294967295,""hero_id"":6,""player_slot"":131},""132"":{""account_id"":4294967295,""hero_id"":98,""player_slot"":132}}"
+473260722
+430818345
+f
+1390019274
+2360
+0
+1982
+0
+63
+152
+102
+0
+10
+0
+0
+0
+1
+0
+
+
+
+
+
+
+
+
+"{""0"":{""account_id"":4294967295,""hero_id"":88,""player_slot"":0},""1"":{""account_id"":4294967295,""hero_id"":44,""player_slot"":1},""2"":{""account_id"":4294967295,""hero_id"":11,""player_slot"":2},""3"":{""account_id"":4294967295,""hero_id"":7,""player_slot"":3},""4"":{""account_id"":4294967295,""hero_id"":,""player_slot"":4},""128"":{""account_id"":4294967295,""hero_id"":73,""player_slot"":128},""129"":{""account_id"":144831983,""hero_id"":14,""player_slot"":129},""130"":{""account_id"":117103981,""hero_id"":40,""player_slot"":130},""131"":{""account_id"":4294967295,""hero_id"":101,""player_slot"":131},""132"":{""account_id"":4294967295,""hero_id"":19,""player_slot"":132}}"
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+> head(wf)
+    match_id match_seq_num radiant_win start_time duration tower_status_radiant tower_status_dire barracks_status_radiant barracks_status_dire cluster first_blood_time lobby_type
+1 2304340261    2019317886           t 1461013929     1701                 1975                 4                      63                    3     155              100          0
+2 2304335744    2019317899           t 1461013382     2299                 1983                 0                      63                    0     136              127          0
+3 2304324185    2019317908           t 1461012679     3291                 1584                 0                      60                    0     134              196          0
+4 2304339409    2019317931           f 1461013865     2192                    0              1982                       0                   63     137               44          0
+5 2304329004    2019317805           t 1461012987     2989                    4                 0                       3                   48     191              104          0
+6 2304333169    2019317809           f 1461013199     2586                    0              2046                       0                   63     204              111          0
+  human_players leagueid positive_votes negative_votes game_mode engine picks_bans parse_status chat objectives radiant_gold_adv radiant_xp_adv teamfights version
+1            10        0              0              0         1      1                       3                                                                 NA
+2            10        0              0              0        18      1                       3                                                                 NA
+3            10        0              0              0         1      1                       3                                                                 NA
+4            10        0              0              0         5      1                       3                                                                 NA
+5            10        0              0              0         1      1                       3                                                                 NA
+6            10        0              0              0         1      1                       3                                                                 NA
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             pgroup
+1  {"0":{"account_id":4294967295,"hero_id":93,"player_slot":0},"1":{"account_id":4294967295,"hero_id":75,"player_slot":1},"2":{"account_id":4294967295,"hero_id":19,"player_slot":2},"3":{"account_id":4294967295,"hero_id":44,"player_slot":3},"4":{"account_id":4294967295,"hero_id":7,"player_slot":4},"128":{"account_id":4294967295,"hero_id":46,"player_slot":128},"129":{"account_id":45475622,"hero_id":38,"player_slot":129},"130":{"account_id":4294967295,"hero_id":52,"player_slot":130},"131":{"account_id":4294967295,"hero_id":43,"player_slot":131},"132":{"account_id":4294967295,"hero_id":60,"player_slot":132}}
+2   {"0":{"account_id":4294967295,"hero_id":29,"player_slot":0},"1":{"account_id":4294967295,"hero_id":44,"player_slot":1},"2":{"account_id":4294967295,"hero_id":73,"player_slot":2},"3":{"account_id":4294967295,"hero_id":93,"player_slot":3},"4":{"account_id":4294967295,"hero_id":27,"player_slot":4},"128":{"account_id":65491737,"hero_id":75,"player_slot":128},"129":{"account_id":4294967295,"hero_id":77,"player_slot":129},"130":{"account_id":108710635,"hero_id":39,"player_slot":130},"131":{"account_id":137517574,"hero_id":109,"player_slot":131},"132":{"account_id":158673305,"hero_id":58,"player_slot":132}}
+3     {"0":{"account_id":124964100,"hero_id":26,"player_slot":0},"1":{"account_id":4294967295,"hero_id":35,"player_slot":1},"2":{"account_id":4294967295,"hero_id":18,"player_slot":2},"3":{"account_id":169834263,"hero_id":20,"player_slot":3},"4":{"account_id":118264296,"hero_id":74,"player_slot":4},"128":{"account_id":4294967295,"hero_id":7,"player_slot":128},"129":{"account_id":176272692,"hero_id":12,"player_slot":129},"130":{"account_id":4294967295,"hero_id":14,"player_slot":130},"131":{"account_id":115451143,"hero_id":38,"player_slot":131},"132":{"account_id":4294967295,"hero_id":80,"player_slot":132}}
+4    {"0":{"account_id":294843235,"hero_id":94,"player_slot":0},"1":{"account_id":4294967295,"hero_id":34,"player_slot":1},"2":{"account_id":117469948,"hero_id":56,"player_slot":2},"3":{"account_id":251934724,"hero_id":18,"player_slot":3},"4":{"account_id":4294967295,"hero_id":35,"player_slot":4},"128":{"account_id":4294967295,"hero_id":80,"player_slot":128},"129":{"account_id":241471673,"hero_id":103,"player_slot":129},"130":{"account_id":38831138,"hero_id":112,"player_slot":130},"131":{"account_id":326263617,"hero_id":96,"player_slot":131},"132":{"account_id":4294967295,"hero_id":44,"player_slot":132}}
+5         {"0":{"account_id":4294967295,"hero_id":14,"player_slot":0},"1":{"account_id":4294967295,"hero_id":62,"player_slot":1},"2":{"account_id":121397020,"hero_id":61,"player_slot":2},"3":{"account_id":97735138,"hero_id":18,"player_slot":3},"4":{"account_id":232236969,"hero_id":5,"player_slot":4},"128":{"account_id":4294967295,"hero_id":6,"player_slot":128},"129":{"account_id":95882819,"hero_id":1,"player_slot":129},"130":{"account_id":114997441,"hero_id":32,"player_slot":130},"131":{"account_id":4294967295,"hero_id":35,"player_slot":131},"132":{"account_id":4294967295,"hero_id":30,"player_slot":132}}
+6 {"0":{"account_id":4294967295,"hero_id":93,"player_slot":0},"1":{"account_id":4294967295,"hero_id":73,"player_slot":1},"2":{"account_id":291017174,"hero_id":112,"player_slot":2},"3":{"account_id":4294967295,"hero_id":74,"player_slot":3},"4":{"account_id":4294967295,"hero_id":53,"player_slot":4},"128":{"account_id":4294967295,"hero_id":104,"player_slot":128},"129":{"account_id":199965965,"hero_id":1,"player_slot":129},"130":{"account_id":4294967295,"hero_id":34,"player_slot":130},"131":{"account_id":4294967295,"hero_id":14,"player_slot":131},"132":{"account_id":279083894,"hero_id":71,"player_slot":132}}
